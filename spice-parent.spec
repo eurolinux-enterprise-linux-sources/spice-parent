@@ -1,6 +1,6 @@
 Name:           spice-parent
 Version:        15
-Release:        10%{?dist}
+Release:        11%{?dist}
 Summary:        Sonatype Spice Components
 
 Group:          Development/Libraries
@@ -41,6 +41,9 @@ cp %{SOURCE1} .
 
 
 %changelog
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 15-11
+- Mass rebuild 2013-12-27
+
 * Mon Aug 26 2013 Michal Srb <msrb@redhat.com> - 15-10
 - Migrate away from mvn-rpmbuild (Resolves: #997502)
 
